@@ -2,6 +2,7 @@ import React from 'react'
 import video from "../assets/video.mp4";
 import { useNavigate } from 'react-router-dom';
 
+
 export default function Home() {
   const page = useNavigate();
   
@@ -20,7 +21,7 @@ export default function Home() {
         <p>
           Welcome to <span>Pixel Photography</span> — where every click tells a story.
         </p>
-        <button onClick={()=>page("/Services")}>Move to Services</button>
+        <button className="button1" onClick={()=>page("/Services")}>Move to Services</button>
       </div>
     </div>
   )

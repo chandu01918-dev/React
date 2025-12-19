@@ -51,7 +51,8 @@ ul{
 .video-section video {
   width: 100%;
   height: 100%;
-  object-fit: cover;     
+  object-fit: cover; 
+ 
 }
 .text{
     position: absolute;
@@ -68,6 +69,16 @@ ul{
   font-size: 3rem;
   margin-bottom: 20px;
   letter-spacing: 1px;
+}
+
+.button1{
+  background-color: #08a3d7;
+  width:120px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
 }
 
 .text p {
